@@ -1,0 +1,9 @@
+# Directories
+.vs/
+bin/
+bin-int/
+Sword/x64/
+DevGame/x64/
+
+# Files
+*.user

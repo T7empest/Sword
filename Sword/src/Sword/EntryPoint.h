@@ -1,17 +1,17 @@
 #pragma once
 
 #ifdef SW_PLATFORM_WINDOWS
-#include <print>
 
+// declared by App.h, defined by client app, being run in entrypoint->main
 extern Sword::Application* Sword::CreateApplication();
 
-int main(int argc, char** argv)
+int32_t main(int32_t argc, char** argv)
 {
+	Sword::Log::Init();
+	SW_CORE_INFO("Logger initialized");
+
 	auto app = Sword::CreateApplication();
-	std::println("Created application");
-
 	app->Run();
-
 	delete app;
 }
 

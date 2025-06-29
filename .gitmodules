@@ -1,0 +1,3 @@
+[submodule "Sword/vendor/spdlog"]
+	path = Sword/vendor/spdlog
+	url = https://github.com/gabime/spdlog

@@ -4,6 +4,9 @@
     <Filter Include="Sword">
       <UniqueIdentifier>{541A200E-C02E-48BF-89B0-EB1EF58344F0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Sword\Events">
+      <UniqueIdentifier>{B85FCEEA-A4C2-5D8F-4D48-9645398A2912}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Sword.h" />
@@ -16,13 +19,22 @@
     <ClInclude Include="src\Sword\EntryPoint.h">
       <Filter>Sword</Filter>
     </ClInclude>
+    <ClInclude Include="src\Sword\Events\ApplicationEvent.h">
+      <Filter>Sword\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sword\Events\Event.h">
+      <Filter>Sword\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sword\Events\KeyEvent.h">
+      <Filter>Sword\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sword\Events\MouseEvent.h">
+      <Filter>Sword\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Sword\Log.h">
       <Filter>Sword</Filter>
     </ClInclude>
-    <ClInclude Include="src\Sword\Events\Event.h" />
-    <ClInclude Include="src\Sword\Events\ApplicationEvent.h" />
-    <ClInclude Include="src\Sword\Events\KeyEvent.h" />
-    <ClInclude Include="src\Sword\Events\MouseEvent.h" />
+    <ClInclude Include="src\SwordPCH.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Sword\Application.cpp">
@@ -31,5 +43,6 @@
     <ClCompile Include="src\Sword\Log.cpp">
       <Filter>Sword</Filter>
     </ClCompile>
+    <ClCompile Include="src\SwordPCH.cpp" />
   </ItemGroup>
 </Project>

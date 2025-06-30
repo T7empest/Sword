@@ -1,7 +1,6 @@
 #pragma once
-#include <functional>
-#include <string>
-#include <iostream>
+
+#include "SwordPCH.h"
 
 namespace Sword
 {

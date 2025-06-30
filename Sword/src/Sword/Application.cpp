@@ -1,3 +1,4 @@
+#include "SwordPCH.h"
 #include "Application.h"
 
 #include "Log.h"

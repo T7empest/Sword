@@ -1,3 +1,4 @@
+#include "SwordPCH.h"
 #include "Log.h"
 
 namespace Sword
